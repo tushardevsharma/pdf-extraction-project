@@ -10,7 +10,7 @@ GPT_MODEL = "gpt-3.5-turbo"
 BATCH_SIZE = 100  # you can submit up to 2048 embedding inputs per request
 
 doc = fitz.open('resources/PDFDataExtract.pdf')
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='<your-api-key-here>')
 
 pdf_data = []
 for page in doc:
