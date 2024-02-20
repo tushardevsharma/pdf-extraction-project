@@ -35,10 +35,11 @@ resulting in more robust code.
 The obvious downside with LLMs is determinism. So far during all my testing, with zero temperature and a seed value, I was able to consistently see the desired results. But if we need to scale then
 this is something that we need to be cognizant about. If we keep the context small, then I think we can (mostly) achieve deterministic results but there are no guarantees. In contrast, the previous
 approach will always produce the desired results as long as the pdf content & layout does not change significantly.
-- In an attempt to avoid any sort of parsing logic I am exploring another approach of creating embeddings for text blocks inside the pdf and then using a cosine similarity function to find related texts.
-I haven't gotten it fully working yet (the output has missing values) but you can check out the code in [`embedding_approach.py`](does_not_work_yet\embedding_approach.py).
 
 Overall I think both the approaches have their pros and cons and which one would I choose would depend on the context, the scale that we want to achieve and the diversity of the data.
+
+- In an attempt to avoid any sort of parsing logic I am exploring another approach of creating embeddings for text blocks inside the pdf and then using a cosine similarity function to find related texts.
+I haven't gotten it fully working yet (the output has missing values) but you can check out the code in [`embedding_approach.py`](does_not_work_yet\embedding_approach.py).
 
 **Note**
 - To run the `llm_approach.py` script, you'd need an OpenAI API key. Once you have the key, paste the key on `line 40`:
