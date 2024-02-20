@@ -3,7 +3,7 @@ Dental Benefit is a key benefit in Medicare Domain. Detailed Dental Benefits dat
 This Dental Data consists of Dental Codes, Description of Dental Code, Copay/Coinsurance(Cost of benefit) and Visits(Quantity of benefit) information present in structured, semi- structured or 
 unstructured manner inside the EOC pdf.
 
-[PDFDataExtract.pdf](resources/PDFDataExtract.pdf) contains semi-structured/unstructured Dental Data. The assignment is to use the pdf to generate an output similar to FinalOutput_PDFDataExtract.xlsx using any technical means.
+[PDFDataExtract.pdf](resources/PDFDataExtract.pdf) contains semi-structured/unstructured Dental Data. The assignment is to use the pdf to generate an output similar to [FinalOutput_PDFDataExtract.xlsx](resources/FinalOutput_PdfDataExtract.xlsx) using any technical means.
 
 #### Few Pointers to Note:
 
